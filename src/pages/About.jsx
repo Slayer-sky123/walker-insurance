@@ -32,7 +32,7 @@ const About = () => {
 
   return (
     <>
-      <section className='bg-white mt-14 lg:mt-12'>
+      <section className='bg-white mt-16 lg:mt-12'>
         <div className='lg:container mx-auto px-4 md:px-8 lg:px-16 py-16 md:py-20'>
           <div className='grid grid-cols-12 md:gap-x-8 gap-y-6'>
             <div className='col-span-12 md:col-span-6 lg:col-span-6 order-2 md:order-1 flex items-center'>
