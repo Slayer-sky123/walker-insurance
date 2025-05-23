@@ -121,7 +121,7 @@ const About = () => {
       <section className='bg-white py-12 lg:py-16 px-4 md:px-8 lg:px-16'>
         <div className='lg:container mx-auto'>
           <div className='grid grid-cols-12 md:gap-x-8 gap-y-6'>
-            <div className='col-span-12 md:col-span-6 lg:col-span-6 order-2 md:order-1 flex items-center'>
+            <div className='col-span-12 md:col-span-12 lg:col-span-6 order-2 md:order-1 flex items-center'>
               <div>
                 <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold text-[var(--primary__color)]'>Meet Michael Walker</h1>
                 <h6 className='text-base text-gray-600 mt-3 md:mt-4'>Michael Walker is a licensed Canadian insurance advisor with more than 12
@@ -155,7 +155,7 @@ const About = () => {
                   days.</h6>
               </div>
             </div>
-            <div className='col-span-12 md:col-span-6 lg:col-span-6 order-1 md:order-2'>
+            <div className='col-span-12 md:col-span-12 lg:col-span-6 order-1 md:order-2'>
               <img draggable="false" className='w-full h-auto aspect-[16/12] object-cover object-center rounded-2xl shadow-lg' src="./images/about-banner.webp" alt="" />
             </div>
           </div>
