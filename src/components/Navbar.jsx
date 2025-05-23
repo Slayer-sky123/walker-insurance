@@ -19,14 +19,14 @@ const Navbar = () => {
 
     return (
         <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
-            <div className="container mx-auto px-4 md:px-10 lg:px-14 py-6 flex justify-between items-center">
+            <div className="lg:container mx-auto px-4 md:px-10 lg:px-14 py-2 flex justify-between items-center">
                 {/* Logo */}
-                <Link to="/" className="text-2xl font-bold text-blue-700 tracking-wide">
-                    Walker<span className="text-gray-800">Insurance</span>
+                <Link to="/">
+                    <img className='aspect-video object-contain object-center w-32' src="../images/blue-logo.png" alt="Walker Insurance" />
                 </Link>
 
                 {/* Desktop Navigation */}
-                <div className="hidden md:flex space-x-6 items-center">
+                <div className="hidden md:flex space-x-10 items-center">
                     {navItems.map((item) => (
                         <Link
                             key={item.label}

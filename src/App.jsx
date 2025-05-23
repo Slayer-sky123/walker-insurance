@@ -6,11 +6,13 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import NotFound from "./pages/NotFound";
 import LenisScroll from "./components/LenisScroll";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <LenisScroll>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />

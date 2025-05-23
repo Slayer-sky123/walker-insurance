@@ -1,7 +1,12 @@
-import { useEffect } from "react";
+import { useEffect, useRef, createContext, useState } from "react";
 import Lenis from "@studio-freight/lenis";
 
+export const LenisContext = createContext(null);
+
 const LenisScroll = ({ children }) => {
+    const [lenisInstance, setLenisInstance] = useState(null);
+    const lenisRef = useRef(null);
+
     useEffect(() => {
         const lenis = new Lenis({
             duration: 1.2,
@@ -9,11 +14,13 @@ const LenisScroll = ({ children }) => {
             smooth: true,
         });
 
+        lenisRef.current = lenis;
+        setLenisInstance(lenis);
+
         const raf = (time) => {
             lenis.raf(time);
             requestAnimationFrame(raf);
         };
-
         requestAnimationFrame(raf);
 
         return () => {
@@ -21,7 +28,11 @@ const LenisScroll = ({ children }) => {
         };
     }, []);
 
-    return <>{children}</>;
+    return (
+        <LenisContext.Provider value={lenisInstance}>
+            {children}
+        </LenisContext.Provider>
+    );
 };
 
 export default LenisScroll;

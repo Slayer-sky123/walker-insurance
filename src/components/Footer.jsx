@@ -15,23 +15,23 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='grid grid-cols-12 md:gap-x-10 gap-y-10 mb-10'>
-                    <div className='col-span-12 md:col-span-6 lg:col-span-5'>
+                    <div className='col-span-12 md:col-span-4 lg:col-span-5'>
                         <Link to='/'>
-                            <img src='../images/white-logo.png' alt='WalkerInsurance' className='aspect-video object-contain object-center w-44'></img>
+                            <img src='../images/white-logo.png' alt='WalkerInsurance' className='aspect-video object-contain object-center w-36 lg:w-44'></img>
                         </Link>
                         <h5 className='font-semibold text-white text-xl lg:text-xl mt-4'>Disability • Critical Illness • Life Insurance</h5>
                         <p className='text-white/90 text-base mt-4'>Plan for the Unexpected. Protect What Matters.</p>
                     </div>
-                    <div className='col-span-12 md:col-span-6 lg:col-span-3'>
+                    <div className='col-span-12 md:col-span-4 lg:col-span-3'>
                         <h5 className='font-semibold text-white text-xl lg:text-xl'>Quick Links</h5>
                         <ul className='mt-4 flex flex-col gap-y-2'>
                             <li>
-                                <Link draggable="false" to="" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
+                                <Link draggable="false" to="/about" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg>
                                     About</Link>
                             </li>
                             <li>
-                                <Link draggable="false" to="" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
+                                <Link draggable="false" to="/services" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg>
                                     Services</Link>
                             </li>
@@ -54,7 +54,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='col-span-12 md:col-span-6 lg:col-span-4'>
+                    <div className='col-span-12 md:col-span-4 lg:col-span-4'>
                         <h5 className='font-semibold text-white text-xl lg:text-xl'>Contact</h5>
                         <ul className='mt-4 flex flex-col gap-y-2'>
                             <li>
