@@ -34,7 +34,7 @@ const TestimonialCarousel = ({ testimonials }) => {
 
                             {/* Name & Role */}
                             <div>
-                                <p className="text-blue-800 font-semibold">{testimonial.name}</p>
+                                <p className="text-[var(--primary__color)] font-semibold">{testimonial.name}</p>
                                 <p className="text-sm text-gray-500">{testimonial.role}</p>
                             </div>
                         </div>

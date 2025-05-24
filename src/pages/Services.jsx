@@ -28,7 +28,7 @@ const Services = () => {
               </div>
             </div>
             <div className="grid grid-cols-12 mt-10 md:gap-x-8 gap-y-8">
-              <div className="col-span-12 md:col-span-4 lg:col-span-4">
+              <div className="col-span-12 md:col-span-6 lg:col-span-6">
                 <AnimatedContent
                   distance={150}
                   direction="horizontal"
@@ -61,16 +61,13 @@ const Services = () => {
                     <p className="text-base text-gray-600">
                       Your ability to earn an income is your greatest asset. If
                       you're self-employed or incorporated, you likely don't
-                      have benefits in place to protect it.
-                    </p>
-                    <p className="text-base text-gray-600 mt-2">
-                      We design disability insurance plans that ensure your
+                      have benefits in place to protect it.We design disability insurance plans that ensure your
                       income continues - even if your ability to work doesn't.
                     </p>
                   </div>
                 </AnimatedContent>
               </div>
-              <div className="col-span-12 md:col-span-4 lg:col-span-4">
+              <div className="col-span-12 md:col-span-6 lg:col-span-6">
                 <AnimatedContent
                   distance={150}
                   direction="horizontal"
@@ -82,7 +79,7 @@ const Services = () => {
                   scale={1.1}
                   threshold={0.2}
                 >
-                  <div className="border-2 border-gray-200 rounded-md p-7 lg:min-h-[327px] select-none hover:border-[var(--primary__color)] transition-all duration-200 ease-in-out h-full">
+                  <div className="border-2 border-gray-200 rounded-md p-7 select-none hover:border-[var(--primary__color)] transition-all duration-200 ease-in-out h-full">
                     <div className="text-[var(--primary__color)]">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +109,7 @@ const Services = () => {
                   </div>
                 </AnimatedContent>
               </div>
-              <div className="col-span-12 md:col-span-4 lg:col-span-4">
+              <div className="col-span-12 md:col-span-6 lg:col-span-12">
                 <AnimatedContent
                   distance={150}
                   direction="horizontal"
@@ -147,12 +144,11 @@ const Services = () => {
                       We build both term and permanent insurance strategies
                       (Whole Life & Universal Life) to:
                     </p>
-                    <ul className="mt-4">
-                      <li>
-                        <p className="text-base text-gray-600">
-                          Protect your family.
-                        </p>
-                      </li>
+                    <ul className="mt-4 space-y-1 list-disc list-inside">
+                      <li className="text-base text-gray-600">Protect your family.</li>
+                      <li className="text-base text-gray-600">Secure business succession</li>
+                      <li className="text-base text-gray-600">Support tax-efficient wealth transfer</li>
+                      <li className="text-base text-gray-600">Fund trusts or legacy gifts</li>
                     </ul>
                   </div>
                 </AnimatedContent>
