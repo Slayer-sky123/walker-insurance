@@ -13,6 +13,7 @@ const Navbar = () => {
         { label: 'About', path: '/about' },
         { label: 'Services', path: '/services' },
         { label: 'Contact', path: '/contact' },
+        { label: 'Get Started', path: '/get-started' },
     ];
 
     const isActive = (path) => pathname === path;
@@ -66,8 +67,8 @@ const Navbar = () => {
                             to={item.path}
                             onClick={() => setIsOpen(false)}
                             className={`block text-base font-medium transition ${isActive(item.path)
-                                ? 'text-blue-700'
-                                : 'text-gray-700 hover:text-blue-700'
+                                ? 'text-[var(--primary__color)]'
+                                : 'text-gray-700 hover:text-[var(--primary__color)]'
                                 }`}
                         >
                             {item.label}

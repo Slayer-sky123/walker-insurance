@@ -23,7 +23,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />
             <Route path="/client-portal" element={<Portal />} />
-            <Route path="/lead-generation" element={<Lead />} />
+            <Route path="/get-started" element={<Lead />} />
             <Route path="/privacy-policy" element={<Privacy />} />
           </Route>
           <Route path="*" element={<NotFound />} />

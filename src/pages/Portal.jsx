@@ -68,8 +68,8 @@ const Portal = () => {
                                     scale={1.1}
                                     threshold={0.2}
                                 >
-                                    <div className='size-80 md:size-96 lg:size-96 bg-white shadow-lg text-[var(--primary__color)] rounded-full flex justify-center items-center'>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="size-52 md:size-56 lg:size-60 lucide lucide-shield-plus-icon lucide-shield-plus"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="M9 12h6" /><path d="M12 9v6" /></svg>
+                                    <div className='size-72 md:size-96 lg:size-96 bg-white shadow-lg text-[var(--primary__color)] rounded-full flex justify-center items-center'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-48 md:size-56 lg:size-60 lucide lucide-lock-icon lucide-lock"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
                                     </div>
                                 </AnimatedContent>
                             </div>
@@ -82,7 +82,7 @@ const Portal = () => {
                     <h4 className="text-2xl md:text-3xl lg:text-4xl text-[var(--primary__color)] font-bold text-center">
                         Why It Matters
                     </h4>
-                    <div className='mt-6 md:mt-10 grid grid-cols-12 lg:gap-x-6 gap-y-6'>
+                    <div className='mt-6 md:mt-10 grid grid-cols-12 md:gap-x-6 gap-y-6'>
                         <div className='col-span-12 md:col-span-6 lg:col-span-6'>
                             <AnimatedContent
                                 distance={150}
@@ -187,7 +187,7 @@ const Portal = () => {
                         <h4 className="text-2xl md:text-3xl lg:text-4xl text-[var(--primary__color)] font-bold text-center">
                             Security You Can Trust
                         </h4>
-                        <div className='mt-7 md:mt-10 grid grid-cols-12 gap-y-8 lg:gap-x-4'>
+                        <div className='mt-7 md:mt-10 grid grid-cols-12 gap-y-8 gap-x-8 lg:gap-x-4'>
                             <div className='col-span-12 md:col-span-6 lg:col-span-3'>
                                 <AnimatedContent
                                     distance={150}
@@ -335,8 +335,8 @@ const Portal = () => {
                             scale={1.1}
                             threshold={0.2}
                         >
-                            <a target='_blank' draggable="false" href='https://auth.sidedrawer.com/login?state=hKFo2SBnaEJWLUdOMjg5TUtnVmlVbWlBMmtlM25FTmFoOGpUOaFupWxvZ2luo3RpZNkgQWRlcnFidE54UURHOWJBejhfQWs5OWFpeEMwS0h5cEqjY2lk2SAyVG5reTVuZGFNSFcwaTdjU1NyeVZVUVNOV0dCMTVYVA&client=2Tnky5ndaMHW0i7cSSryVUQSNWGB15XT&protocol=oauth2&scope=openid%20profile%20email&audience=https%3A%2F%2Fuser-api.sidedrawer.com&redirect_uri=https%3A%2F%2Fmy.sidedrawer.com%2Fauth%2Fauthorize%3F%26origin%3D%2Fauth%2Fauthorize&response_type=code&response_mode=query&nonce=czIyU2g0T3JpcDlaNEk5cnJZbWZrU3cxUkpPaXFiWWtCN0RuYXNoTkNGOA%3D%3D&code_challenge=2qT1Y5Iqxh_p1uSTrDvde5OoFlMnWtQsVR15UvG7A-0&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjIuMS4zIn0%3D' className='text-sm lg:text-base inline-flex items-center gap-x-2 text-white border-2 border-transparent font-medium text-center bg-[var(--primary__color)] hover:scale-95 rounded-md py-3 px-6 transition-all duration-150 ease-linear'>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6 lucide lucide-shield-check-icon lucide-shield-check"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></svg>
+                            <a target='_blank' draggable="false" href='https://auth.sidedrawer.com/login?state=hKFo2SBnaEJWLUdOMjg5TUtnVmlVbWlBMmtlM25FTmFoOGpUOaFupWxvZ2luo3RpZNkgQWRlcnFidE54UURHOWJBejhfQWs5OWFpeEMwS0h5cEqjY2lk2SAyVG5reTVuZGFNSFcwaTdjU1NyeVZVUVNOV0dCMTVYVA&client=2Tnky5ndaMHW0i7cSSryVUQSNWGB15XT&protocol=oauth2&scope=openid%20profile%20email&audience=https%3A%2F%2Fuser-api.sidedrawer.com&redirect_uri=https%3A%2F%2Fmy.sidedrawer.com%2Fauth%2Fauthorize%3F%26origin%3D%2Fauth%2Fauthorize&response_type=code&response_mode=query&nonce=czIyU2g0T3JpcDlaNEk5cnJZbWZrU3cxUkpPaXFiWWtCN0RuYXNoTkNGOA%3D%3D&code_challenge=2qT1Y5Iqxh_p1uSTrDvde5OoFlMnWtQsVR15UvG7A-0&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjIuMS4zIn0%3D' className='text-sm lg:text-base inline-flex items-center gap-x-1 md:gap-x-2 text-white border-2 border-transparent font-medium text-center bg-[var(--primary__color)] hover:scale-95 rounded-md py-3 px-6 transition-all duration-150 ease-linear'>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 md:size-6 lucide lucide-shield-check-icon lucide-shield-check"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></svg>
                                 Access Secure Portal</a>
                         </AnimatedContent>
                     </div>

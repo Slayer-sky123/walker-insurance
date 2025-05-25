@@ -6,13 +6,37 @@ const Lead = () => {
         <>
             <section className="bg-[var(--primary__color)] py-10 md:py-16 px-4 md:px-10 lg:px-16 mt-20">
                 <div className="lg:container mx-auto">
-                    <h4 className="text-2xl md:text-3xl lg:text-4xl text-white font-bold text-center">
-                        Start Your Personalized Insurance Plan
-                    </h4>
+                    <AnimatedContent
+                        distance={150}
+                        direction="vertical"
+                        reverse={false}
+                        config={{ tension: 80, friction: 20 }}
+                        initialOpacity={0}
+                        delay={0}
+                        animateOpacity
+                        scale={1.1}
+                        threshold={0.2}
+                    >
+                        <h4 className="text-2xl md:text-3xl lg:text-4xl text-white font-bold text-center">
+                            Start Your Personalized Insurance Plan
+                        </h4>
+                    </AnimatedContent>
                     <div className='flex justify-center mt-4'>
                         <div className='md:w-2/4'>
-                            <p className='text-white text-center'>Submit your info and we'll reach out personally to schedule your free 30-
-                                minute consultation.</p>
+                            <AnimatedContent
+                                distance={150}
+                                direction="vertical"
+                                reverse={false}
+                                config={{ tension: 80, friction: 20 }}
+                                initialOpacity={0}
+                                delay={100}
+                                animateOpacity
+                                scale={1.1}
+                                threshold={0.2}
+                            >
+                                <p className='text-white text-center'>Submit your info and we'll reach out personally to schedule your free 30-
+                                    minute consultation.</p>
+                            </AnimatedContent>
                         </div>
                     </div>
                 </div>
