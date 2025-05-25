@@ -100,8 +100,9 @@ const Services = () => {
         </div>
       </section>
       <section className="bg-white">
-        <div className="lg:container mx-auto px-4 md:px-8 lg:px-16 py-16 md:py-20">
-          <div className="grid grid-cols-12 md:gap-x-8 gap-y-8">
+        <div className="lg:container mx-auto px-4 md:px-8 lg:px-16 py-12 md:py-16">
+          <h4 className='text-center text-[var(--primary__color)] font-semibold text-3xl md:text-4xl lg:text-5xl'>Our Services</h4>
+          <div className="grid grid-cols-12 md:gap-x-8 gap-y-8 mt-6 md:mt-10">
             <div className="col-span-12 md:col-span-6 lg:col-span-6">
               <AnimatedContent
                 distance={150}
