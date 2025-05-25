@@ -9,6 +9,7 @@ import LenisScroll from "./components/LenisScroll";
 import ScrollToTop from "./components/ScrollToTop";
 import Privacy from "./pages/Privacy";
 import Portal from "./pages/Portal";
+import Lead from "./pages/Lead";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />
             <Route path="/client-portal" element={<Portal />} />
+            <Route path="/lead-generation" element={<Lead />} />
             <Route path="/privacy-policy" element={<Privacy />} />
           </Route>
           <Route path="*" element={<NotFound />} />
