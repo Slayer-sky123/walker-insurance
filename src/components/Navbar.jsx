@@ -13,7 +13,7 @@ const Navbar = () => {
         { label: 'About', path: '/about' },
         { label: 'Services', path: '/services' },
         { label: 'Contact', path: '/contact' },
-        { label: 'Get Started', path: '/get-started' },
+        // { label: 'Book a Consultation', path: '/book-a-consultation' },
     ];
 
     const isActive = (path) => pathname === path;
