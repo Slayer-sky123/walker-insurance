@@ -34,7 +34,7 @@ const Home = () => {
                                     scale={1.1}
                                     threshold={0.2}
                                 >
-                                    <h6 className='text-lg text-gray-600 mt-3 md:mt-4'>Walker Insurance is a digital-first insurance practice specializing in Disability, Critical Illness, and Life Insurance. We help professionals, business owners, and families protect their income, prepare for unexpected health challenges, and create lasting financial security for the next generation.</h6>
+                                    <h6 className='text-lg text-gray-600 mt-3 md:mt-4'>Walker Insurance is a digital-first insurance practice specializing in Disability Insurance, Critical Illness Insurance, and Life Insurance. We help professionals, business owners, and families plan for health events, protect income, and build lasting financial security.</h6>
                                 </AnimatedContent>
                                 <AnimatedContent
                                     distance={150}
@@ -95,7 +95,7 @@ const Home = () => {
                                     scale={1.1}
                                     threshold={0.2}
                                 >
-                                    <p className='text-base text-center text-gray-600 mt-3 md:mt-4'>At Walker Insurance, we focus exclusively on three essential areas of risk protection. Each solution is delivered through a fully digital process tailored to support your income, health, and long-term financial security.</p>
+                                    <p className='text-base text-center text-gray-600 mt-3 md:mt-4'>At Walker Insurance, we focus exclusively on three essential areas of risk protection. Each solution is delivered through a secure online process designed to be clear and efficient.</p>
                                 </AnimatedContent>
                             </div>
                         </div>
@@ -112,12 +112,12 @@ const Home = () => {
                                     scale={1.1}
                                     threshold={0.2}
                                 >
-                                    <div className='border-2 border-gray-200 rounded-md p-7 lg:min-h-[295px] select-none hover:border-[var(--primary__color)] transition-all duration-200 ease-in-out h-full'>
+                                    <div className='border-2 border-gray-200 rounded-md p-7 lg:min-h-[275px] select-none hover:border-[var(--primary__color)] transition-all duration-200 ease-in-out h-full'>
                                         <div className='text-[var(--primary__color)]'>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-10 lucide lucide-shield-icon lucide-shield"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /></svg>
                                         </div>
                                         <h3 className='text-[var(--primary__color)] font-semibold text-xl lg:text-xl my-3'>Disability Insurance</h3>
-                                        <p className='text-base text-gray-600'>Protects your income if an illness or injury prevents you from working. We help professionals, business owners, and families build a financial safety plan that supports their lifestyle through uncertain times.</p>
+                                        <p className='text-base text-gray-600'>Protects your income if illness or injury prevents you from working. We design a safety net that reflects your income, profession, and lifestyle.</p>
                                     </div>
                                 </AnimatedContent>
                             </div>
@@ -133,12 +133,12 @@ const Home = () => {
                                     scale={1.1}
                                     threshold={0.2}
                                 >
-                                    <div className='border-2 border-gray-200 rounded-md p-7 lg:min-h-[295px] select-none hover:border-[var(--primary__color)] transition-all duration-200 ease-in-out h-full'>
+                                    <div className='border-2 border-gray-200 rounded-md p-7 lg:min-h-[275px] select-none hover:border-[var(--primary__color)] transition-all duration-200 ease-in-out h-full'>
                                         <div className='text-[var(--primary__color)]'>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-10 lucide lucide-heart-plus-icon lucide-heart-plus"><path d="M13.5 19.5 12 21l-7-7c-1.5-1.45-3-3.2-3-5.5A5.5 5.5 0 0 1 7.5 3c1.76 0 3 .5 4.5 2 1.5-1.5 2.74-2 4.5-2a5.5 5.5 0 0 1 5.402 6.5" /><path d="M15 15h6" /><path d="M18 12v6" /></svg>
                                         </div>
                                         <h3 className='text-[var(--primary__color)] font-semibold text-xl lg:text-xl my-3'>Critical Illness Insurance</h3>
-                                        <p className='text-base text-gray-600'>Provides a lump sum payment if you are diagnosed with a covered condition. This coverage allows you to focus on recovery without added financial strain.</p>
+                                        <p className='text-base text-gray-600'>Provides a tax-free lump sum if you are diagnosed with a covered condition. This gives you flexibility during recovery without financial pressure.</p>
                                     </div>
                                 </AnimatedContent>
                             </div>
@@ -154,12 +154,12 @@ const Home = () => {
                                     scale={1.1}
                                     threshold={0.2}
                                 >
-                                    <div className='border-2 border-gray-200 rounded-md p-7 lg:min-h-[295px] select-none hover:border-[var(--primary__color)] transition-all duration-200 ease-in-out h-full'>
+                                    <div className='border-2 border-gray-200 rounded-md p-7 lg:min-h-[275px] select-none hover:border-[var(--primary__color)] transition-all duration-200 ease-in-out h-full'>
                                         <div className='text-[var(--primary__color)]'>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="size-10 lucide lucide-heart-pulse-icon lucide-heart-pulse"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" /></svg>
                                         </div>
                                         <h3 className='text-[var(--primary__color)] font-semibold text-xl lg:text-xl my-3'>Life Insurance</h3>
-                                        <p className='text-base text-gray-600'>Delivers financial protection to your loved ones or business in the event of your death. We design coverage that supports income replacement, estate preservation, and long-term planning goals.</p>
+                                        <p className='text-base text-gray-600'>Delivers structured protection for your family, business, or estate. Our planning supports wealth transfer, income replacement, and long term goals.</p>
                                     </div>
                                 </AnimatedContent>
                             </div>
@@ -171,25 +171,6 @@ const Home = () => {
                 <div className='bg-[#e8f1ff] py-10 md:py-16 px-4 md:px-10 lg:px-16'>
                     <div className='lg:container mx-auto'>
                         <h4 className='text-2xl md:text-3xl lg:text-4xl text-[var(--primary__color)] font-bold text-center'>What Sets Us Apart</h4>
-                        <div className='flex justify-center'>
-                            <div className='md:w-3/4 lg:w-3/4'>
-                                <h5 className='text-center font-medium text-xl mt-4 md:mt-5 text-gray-600'>We focus on clarity, experience, and personalized service</h5>
-                                <AnimatedContent
-                                    distance={150}
-                                    direction="horizontal"
-                                    reverse={true}
-                                    config={{ tension: 80, friction: 20 }}
-                                    initialOpacity={0}
-                                    delay={100}
-                                    animateOpacity
-                                    scale={1.1}
-                                    threshold={0.2}
-                                >
-                                    <p className='text-base text-center text-gray-600 mt-2 md:mt-3'>At Walker Insurance, you receive advice that is structured, relevant, and designed to protect your
-                                        income, health, and legacy</p>
-                                </AnimatedContent>
-                            </div>
-                        </div>
                         <div className='flex justify-center'>
                             <ul className='mt-8 md:w-3/4 flex flex-col gap-y-5'>
                                 <AnimatedContent
@@ -207,7 +188,7 @@ const Home = () => {
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#25d366" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6 lucide lucide-check-check-icon lucide-check-check"><path d="M18 6 7 17l-5-5" /><path d="m22 10-7.5 7.5L13 16" /></svg>
                                         <div className='flex flex-col gap-y-2'>
                                             <span className='text-xl'>Specialized Focus</span>
-                                            <span className='text-gray-500 font-normal'>We work only in Disability Insurance, Critical Illness Insurance, and Life Insurance to deliver focused and relevant solutions</span>
+                                            <span className='text-gray-500 font-normal'>We work only in Disability Insurance, Critical Illness Insurance, and Life Insurance for deeper expertise.</span>
                                         </div>
                                     </li>
                                 </AnimatedContent>
@@ -226,7 +207,7 @@ const Home = () => {
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#25d366" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6 lucide lucide-check-check-icon lucide-check-check"><path d="M18 6 7 17l-5-5" /><path d="m22 10-7.5 7.5L13 16" /></svg>
                                         <div className='flex flex-col gap-y-2'>
                                             <span className='text-xl'>Digital First Process</span>
-                                            <span className='text-gray-500 font-normal'>Everything is done online, from consultation to policy delivery. No paperwork or in person meetings required</span>
+                                            <span className='text-gray-500 font-normal'>From consultation to policy delivery, everything is handled online. No paperwork. No in person meetings.</span>
                                         </div>
                                     </li>
                                 </AnimatedContent>
@@ -244,8 +225,8 @@ const Home = () => {
                                     <li className='select-none bg-white rounded-lg p-5 font-medium border border-gray-200 flex justify-start items-start gap-x-3'>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#25d366" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6 lucide lucide-check-check-icon lucide-check-check"><path d="M18 6 7 17l-5-5" /><path d="m22 10-7.5 7.5L13 16" /></svg>
                                         <div className='flex flex-col gap-y-2'>
-                                            <span className='text-xl'>Independent Recommendations</span>
-                                            <span className='text-gray-500 font-normal'>We work with multiple insurers but always act in your best interest</span>
+                                            <span className='text-xl'>Independent Advice</span>
+                                            <span className='text-gray-500 font-normal'>We are not tied to one insurer. Our recommendations reflect your best interest.</span>
                                         </div>
                                     </li>
                                 </AnimatedContent>
@@ -263,8 +244,8 @@ const Home = () => {
                                     <li className='select-none bg-white rounded-lg p-5 font-medium border border-gray-200 flex justify-start items-start gap-x-3'>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#25d366" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6 lucide lucide-check-check-icon lucide-check-check"><path d="M18 6 7 17l-5-5" /><path d="m22 10-7.5 7.5L13 16" /></svg>
                                         <div className='flex flex-col gap-y-2'>
-                                            <span className='text-xl'>Professional Expertise</span>
-                                            <span className='text-gray-500 font-normal'>With over ten years of experience and advanced designations, we provide advice grounded in planning and practical insight</span>
+                                            <span className='text-xl'>Professional Experience</span>
+                                            <span className='text-gray-500 font-normal'>With over a decade of experience and advanced designations, we bring practical knowledge to every case.</span>
                                         </div>
                                     </li>
                                 </AnimatedContent>
@@ -283,7 +264,7 @@ const Home = () => {
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#25d366" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6 lucide lucide-check-check-icon lucide-check-check"><path d="M18 6 7 17l-5-5" /><path d="m22 10-7.5 7.5L13 16" /></svg>
                                         <div className='flex flex-col gap-y-2'>
                                             <span className='text-xl'>Collaborative Planning</span>
-                                            <span className='text-gray-500 font-normal'>We coordinate with your accountant or lawyer when needed to ensure your insurance fits into your broader financial or estate plan</span>
+                                            <span className='text-gray-500 font-normal'>When necessary, we work with your accountant, lawyer, or financial advisor to ensure your coverage supports broader planning goals.</span>
                                         </div>
                                     </li>
                                 </AnimatedContent>

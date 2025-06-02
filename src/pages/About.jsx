@@ -280,7 +280,7 @@ const About = () => {
                 scale={1.1}
                 threshold={0.2}
               >
-                <img draggable="false" className='w-full h-auto aspect-[1/1] object-cover object-center rounded-2xl shadow-lg' src="./images/about-banner.webp" alt="Meet Michael Walker" />
+                <img draggable="false" className='w-full h-auto aspect-[16/12] object-cover object-center rounded-2xl shadow-lg' src="./images/walker-img.webp" alt="Meet Michael Walker" />
               </AnimatedContent>
             </div>
           </div>
