@@ -47,7 +47,7 @@ const Services = () => {
                   scale={1.1}
                   threshold={0.2}
                 >
-                  <h1 className='text-2xl md:text-3xl lg:text-5xl font-bold text-[var(--primary__color)]'>Insurance that works when you need it most</h1>
+                  <h1 className='text-2xl md:text-2xl lg:text-4xl font-bold text-[var(--primary__color)]'>Focused Insurance Planning Delivered Through a Modern Digital Experience</h1>
                 </AnimatedContent>
                 <AnimatedContent
                   distance={150}
@@ -60,8 +60,7 @@ const Services = () => {
                   scale={1.1}
                   threshold={0.2}
                 >
-                  <h6 className='text-lg text-gray-600 mt-3 md:mt-4'>Tailored insurance solutions for professionals, business owners, and
-                    families.</h6>
+                  <h6 className='text-lg text-gray-600 mt-3 md:mt-4'>We provide risk protection in three specialized areas, each delivered through a secure and fully digital process.</h6>
                 </AnimatedContent>
                 <AnimatedContent
                   distance={150}
@@ -101,9 +100,9 @@ const Services = () => {
       </section>
       <section className="bg-white">
         <div className="lg:container mx-auto px-4 md:px-8 lg:px-16 py-12 md:py-16">
-          <h4 className='text-center text-[var(--primary__color)] font-semibold text-3xl md:text-4xl lg:text-5xl'>Our Services</h4>
+          <h4 className='text-center text-[var(--primary__color)] font-semibold text-2xl md:text-3xl lg:text-4xl'>What we offer</h4>
           <div className="grid grid-cols-12 md:gap-x-8 gap-y-8 mt-6 md:mt-10">
-            <div className="col-span-12 md:col-span-6 lg:col-span-6">
+            <div className="col-span-12 md:col-span-6 lg:col-span-4">
               <AnimatedContent
                 distance={150}
                 direction="horizontal"
@@ -134,18 +133,13 @@ const Services = () => {
                     Disability Insurance
                   </h3>
                   <p className="text-base text-gray-600">
-                    Your ability to earn an income is your greatest asset. If
-                    you're self-employed or incorporated, you likely don't
-                    have benefits in place to protect it.We design disability insurance plans that ensure your
-                    income continues - even if your ability to work doesn't.
+                    Provides income replacement if you are unable to work due to illness or injury. We design coverage that reflects your profession, obligations, and financial needs.
                   </p>
-                  <div className="mt-4">
-                    <a target='_blank' draggable="false" href='https://ablink.send.calendly.com/ls/click?upn=u001.-2FpFZHOmNsCfytAyhc9roxACDA2HALqgJ50Rbjt11PtX4qILxh5uDR444hbpf6edx4fu3xj3xg8BtXf2LfDPSfPASwmojPK6j135awB4IkpxgX7OEmMGrMJgCFfHFr6N9zd1mFevDI4NwAeDzJIBupI29XTbPmZ1dk0eE7OOZmLs3nUXbHTzx1m2FlhkQsvDvacZ00UGNVuzVspuq8Qgf79mshv6GW-2FJ1fOqeo6ig5pN7Lo4jPaIWUsjhhZkDwt3d0BX9zfFEUcbq1zbaroS78g-3D-3DUiu1_p4A4YQt8epDIK9HlKea9sS9y-2FXI3hZ-2Br5MGDAGWSQZ5-2FNdlMNznSmx5vBjrWGdnjnbFE2Mv7-2FirA7nEBiNZzzPW8TFOHwcrDUa87jtA1jFHkbEwv1dL9Xd6C4A-2B8gkiEufPW3hPiUBegGKPiPQ4GY5ftIAtYVUiTYMCCgvjfQQarsw-2FEQEPZqWsRC2Nj1kv6Aa7oB5s49gYeX4WPf87drmEXlPSP4gG7AyY1t5AFXbAgn6ngUSQG8fgOmmVb5X2Vu-2FttSsDb31K-2BaWsNQZ-2Fv6HnxQPbFXAfyxqaXu6Q2UbHvztBCahymNuuqNVyk5qpBrvhk23PJMYhRqiCkTbGypqnqYccmVLc2J6Iem3I96kUhgw5Yj9FlueHzxO0FgxYmqqwU54Mgno2m56swKQdzvQVVUb2DD1WvMztryBkL58mPm6OZzlDFETl12DWZeVQB9tkJaxsnxDVine-2FRf4GXzuZ05HnuI9eLtbi1ZHE3XoD1LIEJeNOkfsl3Z-2BPWXEn-2BeG-2FbiUDRUHzFMcE-2F1Dq-2BKtlANv2iG9kdeAvbwgjfunlml8-2F5A7CEUmVuvTRHza0MbCSD5NA5UfuzNUh49yCLUOUoq0cUJQ8tEeUm6LSrO7ifMAOl62WhAVY8GJ9G0sKcVBLSlIWl-2F8Jg17dNVDuVA1MGFKUAvy8szwbYK5TfRXNLeoa-2B-2BxCl9aDF9bY6avELK1c9Qe6BNBctr7QxLwT8amHp2YN3P4FHL50imHwjwi57q-2BBSJ1JC2MRP2ZZI-2FjSN' className='text-sm lg:text-base inline-block text-white font-semibold text-center bg-[var(--primary__color)] hover:scale-95 rounded-md py-3 px-6 transition-all duration-150 ease-linear'>Book a Consultation</a>
-                  </div>
+
                 </div>
               </AnimatedContent>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-6">
+            <div className="col-span-12 md:col-span-6 lg:col-span-4">
               <AnimatedContent
                 distance={150}
                 direction="horizontal"
@@ -178,19 +172,12 @@ const Services = () => {
                     Critical Illness Insurance
                   </h3>
                   <p className="text-base text-gray-600">
-                    A major health event can turn life upside down. Critical
-                    Illness coverage pays out a lump sum tax-free if you're
-                    diagnosed with a covered condition, giving you the
-                    flexibility to take time off, seek private care, or keep
-                    your household running during recovery.
+                    Pays a tax-free lump sum if you are diagnosed with a covered condition. These funds offer financial stability and flexibility during recovery.
                   </p>
-                  <div className="mt-4">
-                    <a target='_blank' draggable="false" href='https://ablink.send.calendly.com/ls/click?upn=u001.-2FpFZHOmNsCfytAyhc9roxACDA2HALqgJ50Rbjt11PtX4qILxh5uDR444hbpf6edx4fu3xj3xg8BtXf2LfDPSfPASwmojPK6j135awB4IkpxgX7OEmMGrMJgCFfHFr6N9zd1mFevDI4NwAeDzJIBupI29XTbPmZ1dk0eE7OOZmLs3nUXbHTzx1m2FlhkQsvDvacZ00UGNVuzVspuq8Qgf79mshv6GW-2FJ1fOqeo6ig5pN7Lo4jPaIWUsjhhZkDwt3d0BX9zfFEUcbq1zbaroS78g-3D-3DUiu1_p4A4YQt8epDIK9HlKea9sS9y-2FXI3hZ-2Br5MGDAGWSQZ5-2FNdlMNznSmx5vBjrWGdnjnbFE2Mv7-2FirA7nEBiNZzzPW8TFOHwcrDUa87jtA1jFHkbEwv1dL9Xd6C4A-2B8gkiEufPW3hPiUBegGKPiPQ4GY5ftIAtYVUiTYMCCgvjfQQarsw-2FEQEPZqWsRC2Nj1kv6Aa7oB5s49gYeX4WPf87drmEXlPSP4gG7AyY1t5AFXbAgn6ngUSQG8fgOmmVb5X2Vu-2FttSsDb31K-2BaWsNQZ-2Fv6HnxQPbFXAfyxqaXu6Q2UbHvztBCahymNuuqNVyk5qpBrvhk23PJMYhRqiCkTbGypqnqYccmVLc2J6Iem3I96kUhgw5Yj9FlueHzxO0FgxYmqqwU54Mgno2m56swKQdzvQVVUb2DD1WvMztryBkL58mPm6OZzlDFETl12DWZeVQB9tkJaxsnxDVine-2FRf4GXzuZ05HnuI9eLtbi1ZHE3XoD1LIEJeNOkfsl3Z-2BPWXEn-2BeG-2FbiUDRUHzFMcE-2F1Dq-2BKtlANv2iG9kdeAvbwgjfunlml8-2F5A7CEUmVuvTRHza0MbCSD5NA5UfuzNUh49yCLUOUoq0cUJQ8tEeUm6LSrO7ifMAOl62WhAVY8GJ9G0sKcVBLSlIWl-2F8Jg17dNVDuVA1MGFKUAvy8szwbYK5TfRXNLeoa-2B-2BxCl9aDF9bY6avELK1c9Qe6BNBctr7QxLwT8amHp2YN3P4FHL50imHwjwi57q-2BBSJ1JC2MRP2ZZI-2FjSN' className='text-sm lg:text-base inline-block text-white font-semibold text-center bg-[var(--primary__color)] hover:scale-95 rounded-md py-3 px-6 transition-all duration-150 ease-linear'>Book a Consultation</a>
-                  </div>
                 </div>
               </AnimatedContent>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-12">
+            <div className="col-span-12 md:col-span-6 lg:col-span-4">
               <AnimatedContent
                 distance={150}
                 direction="horizontal"
@@ -218,24 +205,21 @@ const Services = () => {
                     </svg>
                   </div>
                   <h3 className="text-[var(--primary__color)] font-semibold text-xl lg:text-xl my-3">
-                    Life Insurance & Estate Planning
+                    Life Insurance
                   </h3>
                   <p className="text-base text-gray-600">
-                    Life Insurance can do far more than cover final expenses.
-                    We build both term and permanent insurance strategies
-                    (Whole Life & Universal Life) to:
+                    Provides structured protection for your family, estate, or business. We help you plan for legacy, continuity, and long term financial goals.
                   </p>
-                  <ul className="mt-4 space-y-1 list-disc list-inside">
-                    <li className="text-base text-gray-600">Protect your family.</li>
-                    <li className="text-base text-gray-600">Secure business succession</li>
-                    <li className="text-base text-gray-600">Support tax-efficient wealth transfer</li>
-                    <li className="text-base text-gray-600">Fund trusts or legacy gifts</li>
-                  </ul>
-                  <div className="mt-4">
-                    <a target='_blank' draggable="false" href='https://ablink.send.calendly.com/ls/click?upn=u001.-2FpFZHOmNsCfytAyhc9roxACDA2HALqgJ50Rbjt11PtX4qILxh5uDR444hbpf6edx4fu3xj3xg8BtXf2LfDPSfPASwmojPK6j135awB4IkpxgX7OEmMGrMJgCFfHFr6N9zd1mFevDI4NwAeDzJIBupI29XTbPmZ1dk0eE7OOZmLs3nUXbHTzx1m2FlhkQsvDvacZ00UGNVuzVspuq8Qgf79mshv6GW-2FJ1fOqeo6ig5pN7Lo4jPaIWUsjhhZkDwt3d0BX9zfFEUcbq1zbaroS78g-3D-3DUiu1_p4A4YQt8epDIK9HlKea9sS9y-2FXI3hZ-2Br5MGDAGWSQZ5-2FNdlMNznSmx5vBjrWGdnjnbFE2Mv7-2FirA7nEBiNZzzPW8TFOHwcrDUa87jtA1jFHkbEwv1dL9Xd6C4A-2B8gkiEufPW3hPiUBegGKPiPQ4GY5ftIAtYVUiTYMCCgvjfQQarsw-2FEQEPZqWsRC2Nj1kv6Aa7oB5s49gYeX4WPf87drmEXlPSP4gG7AyY1t5AFXbAgn6ngUSQG8fgOmmVb5X2Vu-2FttSsDb31K-2BaWsNQZ-2Fv6HnxQPbFXAfyxqaXu6Q2UbHvztBCahymNuuqNVyk5qpBrvhk23PJMYhRqiCkTbGypqnqYccmVLc2J6Iem3I96kUhgw5Yj9FlueHzxO0FgxYmqqwU54Mgno2m56swKQdzvQVVUb2DD1WvMztryBkL58mPm6OZzlDFETl12DWZeVQB9tkJaxsnxDVine-2FRf4GXzuZ05HnuI9eLtbi1ZHE3XoD1LIEJeNOkfsl3Z-2BPWXEn-2BeG-2FbiUDRUHzFMcE-2F1Dq-2BKtlANv2iG9kdeAvbwgjfunlml8-2F5A7CEUmVuvTRHza0MbCSD5NA5UfuzNUh49yCLUOUoq0cUJQ8tEeUm6LSrO7ifMAOl62WhAVY8GJ9G0sKcVBLSlIWl-2F8Jg17dNVDuVA1MGFKUAvy8szwbYK5TfRXNLeoa-2B-2BxCl9aDF9bY6avELK1c9Qe6BNBctr7QxLwT8amHp2YN3P4FHL50imHwjwi57q-2BBSJ1JC2MRP2ZZI-2FjSN' className='text-sm lg:text-base inline-block text-white font-semibold text-center bg-[var(--primary__color)] hover:scale-95 rounded-md py-3 px-6 transition-all duration-150 ease-linear'>Book a Consultation</a>
-                  </div>
                 </div>
               </AnimatedContent>
+            </div>
+          </div>
+          <div className="mt-12 flex justify-center">
+            <div className="md:w-3/4">
+              <p className="text-center text-base text-gray-600">Not sure what coverage is right for you? We guide you through your options and may follow up with a personalized video summary so you can review everything at your own pace.</p>
+              <div className="mt-8 flex justify-center">
+                <a target='_blank' draggable="false" href='https://ablink.send.calendly.com/ls/click?upn=u001.-2FpFZHOmNsCfytAyhc9roxACDA2HALqgJ50Rbjt11PtX4qILxh5uDR444hbpf6edx4fu3xj3xg8BtXf2LfDPSfPASwmojPK6j135awB4IkpxgX7OEmMGrMJgCFfHFr6N9zd1mFevDI4NwAeDzJIBupI29XTbPmZ1dk0eE7OOZmLs3nUXbHTzx1m2FlhkQsvDvacZ00UGNVuzVspuq8Qgf79mshv6GW-2FJ1fOqeo6ig5pN7Lo4jPaIWUsjhhZkDwt3d0BX9zfFEUcbq1zbaroS78g-3D-3DUiu1_p4A4YQt8epDIK9HlKea9sS9y-2FXI3hZ-2Br5MGDAGWSQZ5-2FNdlMNznSmx5vBjrWGdnjnbFE2Mv7-2FirA7nEBiNZzzPW8TFOHwcrDUa87jtA1jFHkbEwv1dL9Xd6C4A-2B8gkiEufPW3hPiUBegGKPiPQ4GY5ftIAtYVUiTYMCCgvjfQQarsw-2FEQEPZqWsRC2Nj1kv6Aa7oB5s49gYeX4WPf87drmEXlPSP4gG7AyY1t5AFXbAgn6ngUSQG8fgOmmVb5X2Vu-2FttSsDb31K-2BaWsNQZ-2Fv6HnxQPbFXAfyxqaXu6Q2UbHvztBCahymNuuqNVyk5qpBrvhk23PJMYhRqiCkTbGypqnqYccmVLc2J6Iem3I96kUhgw5Yj9FlueHzxO0FgxYmqqwU54Mgno2m56swKQdzvQVVUb2DD1WvMztryBkL58mPm6OZzlDFETl12DWZeVQB9tkJaxsnxDVine-2FRf4GXzuZ05HnuI9eLtbi1ZHE3XoD1LIEJeNOkfsl3Z-2BPWXEn-2BeG-2FbiUDRUHzFMcE-2F1Dq-2BKtlANv2iG9kdeAvbwgjfunlml8-2F5A7CEUmVuvTRHza0MbCSD5NA5UfuzNUh49yCLUOUoq0cUJQ8tEeUm6LSrO7ifMAOl62WhAVY8GJ9G0sKcVBLSlIWl-2F8Jg17dNVDuVA1MGFKUAvy8szwbYK5TfRXNLeoa-2B-2BxCl9aDF9bY6avELK1c9Qe6BNBctr7QxLwT8amHp2YN3P4FHL50imHwjwi57q-2BBSJ1JC2MRP2ZZI-2FjSN' className='text-sm lg:text-base inline-block text-white font-semibold text-center bg-[var(--primary__color)] hover:scale-95 rounded-md py-3 px-6 transition-all duration-150 ease-linear'>Book a Consultation</a>
+              </div>
             </div>
           </div>
         </div>
@@ -395,12 +379,12 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white py-10 md:py-16 px-4 md:px-10 lg:px-16">
+        {/* <div className="bg-white py-10 md:py-16 px-4 md:px-10 lg:px-16">
           <div className="lg:container mx-auto">
             <h4 className='text-center text-[var(--primary__color)] font-semibold text-2xl md:text-3xl lg:text-4xl'>What Our Clients Say</h4>
             <TestimonialCarousel testimonials={testimonials} />
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

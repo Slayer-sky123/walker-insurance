@@ -32,7 +32,7 @@ const Footer = () => {
                             scale={1.1}
                             threshold={0.2}
                         >
-                            <p className='text-white/80 text-center mt-4 lg:mt-5'>Walker Insurance is built for modern professionals, families, and business owners. Clients have access to a secure online portal where insurance policies and important planning documents can be safely stored and managed.</p>
+                            <p className='text-white/80 text-center mt-4 lg:mt-5'>Walker Insurance is designed for professionals, families, and business owners who value clarity, structure, and secure digital solutions. Clients receive access to a private portal to manage policies and planning documents with confidence.</p>
                         </AnimatedContent>
                         <div className='flex justify-center mt-6 lg:mt-8'>
                             <AnimatedContent
@@ -62,14 +62,9 @@ const Footer = () => {
                         <h5 className='font-semibold text-white text-xl lg:text-xl'>Quick Links</h5>
                         <ul className='mt-4 flex flex-col gap-y-2'>
                             <li>
-                                <Link draggable="false" to="/book-a-consultation" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
+                                <Link draggable="false" to="/" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg>
-                                    Book a Consultation</Link>
-                            </li>
-                            <li>
-                                <Link draggable="false" to="/services" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg>
-                                    Services</Link>
+                                    Home</Link>
                             </li>
                             <li>
                                 <Link draggable="false" to="/about" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
@@ -77,14 +72,24 @@ const Footer = () => {
                                     About</Link>
                             </li>
                             <li>
+                                <Link draggable="false" to="/services" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg>
+                                    Services</Link>
+                            </li>
+                            <li>
+                                <Link draggable="false" to="/book-a-consultation" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg>
+                                    Book a Consultation</Link>
+                            </li>
+                            <li>
                                 <Link draggable="false" to="/privacy-policy" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg>
                                     Privacy Policy</Link>
                             </li>
                             <li>
-                                <Link draggable="false" to="/client-portal" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
+                                <Link draggable="false" to="/contact" className='inline-flex items-center gap-x-1 text-white transition-all duration-200 ease-in-out hover:ps-1'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg>
-                                    Client Portal</Link>
+                                    Contact</Link>
                             </li>
                         </ul>
                     </div>

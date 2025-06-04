@@ -274,25 +274,7 @@ const Home = () => {
                 </div>
                 <div className='bg-white py-10 md:py-16 px-4 md:px-10 lg:px-16'>
                     <div className='lg:container mx-auto'>
-                        <h4 className='text-2xl md:text-3xl lg:text-4xl text-[var(--primary__color)] font-bold text-center'>Our Process</h4>
-                        <div className='flex justify-center'>
-                            <div className='md:w-3/4 lg:w-3/4'>
-                                <h5 className='text-center font-medium text-xl mt-4 md:mt-5 text-gray-600'>A clear process. No pressure. Fully online.</h5>
-                                <AnimatedContent
-                                    distance={150}
-                                    direction="horizontal"
-                                    reverse={true}
-                                    config={{ tension: 80, friction: 20 }}
-                                    initialOpacity={0}
-                                    delay={100}
-                                    animateOpacity
-                                    scale={1.1}
-                                    threshold={0.2}
-                                >
-                                    <p className='text-base text-center text-gray-600 mt-2 md:mt-3'>Working with Walker Insurance is simple. We guide you through every step so you can make confident decisions without unnecessary complexity.</p>
-                                </AnimatedContent>
-                            </div>
-                        </div>
+                        <h4 className='text-2xl md:text-3xl lg:text-4xl text-[var(--primary__color)] font-bold text-center'>How It Works</h4>
                         <div className='grid grid-cols-12 mt-10 md:gap-x-8 gap-y-1'>
                             <div className='col-span-12 md:col-span-4 lg:col-span-4'>
                                 <AnimatedContent
@@ -311,7 +293,7 @@ const Home = () => {
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-8 lucide lucide-clock-icon lucide-clock"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
                                         </div>
                                         <h3 className='text-[var(--primary__color)] text-center font-semibold text-xl lg:text-xl mb-3 mt-4'>Book a Consultation</h3>
-                                        <p className='text-base text-gray-600 text-center'>Schedule a short virtual meeting to discuss what matters most to you. We take time to understand your income, family, and planning goals.</p>
+                                        <p className='text-base text-gray-600 text-center'>Schedule a virtual meeting to discuss your planning priorities.</p>
                                     </div>
                                 </AnimatedContent>
                             </div>
@@ -332,7 +314,7 @@ const Home = () => {
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-8 lucide lucide-book-icon lucide-book"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" /></svg>
                                         </div>
                                         <h3 className='text-[var(--primary__color)] text-center font-semibold text-xl lg:text-xl mb-3 mt-4'>Review Your Plan</h3>
-                                        <p className='text-base text-gray-600 text-center'>We present tailored options for Disability Insurance, Critical Illness Insurance, and Life Insurance. You choose the solution that fits your needs.</p>
+                                        <p className='text-base text-gray-600 text-center'>We present tailored insurance options and walk you through your choices.</p>
                                     </div>
                                 </AnimatedContent>
                             </div>
@@ -353,7 +335,7 @@ const Home = () => {
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-8 lucide lucide-shield-plus-icon lucide-shield-plus"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="M9 12h6" /><path d="M12 9v6" /></svg>
                                         </div>
                                         <h3 className='text-[var(--primary__color)] text-center font-semibold text-xl lg:text-xl mb-3 mt-4'>Apply and Get Covered</h3>
-                                        <p className='text-base text-gray-600 text-center'>Your application is completed securely online. We manage the process from start to finish and stay in touch until your policy is in place.</p>
+                                        <p className='text-base text-gray-600 text-center'>Applications are submitted digitally. We manage the process and keep you informed.</p>
                                     </div>
                                 </AnimatedContent>
                             </div>

@@ -62,7 +62,7 @@ const About = () => {
                   scale={1.1}
                   threshold={0.2}
                 >
-                  <h6 className='text-lg text-gray-600 mt-3 md:mt-4'>Walker Insurance provides structured insurance advice for professionals, families, and business owners. We focus on Disability Insurance, Critical Illness Insurance, and Life Insurance, delivered through a fully digital process designed for clarity, security, and convenience.</h6>
+                  <h6 className='text-lg text-gray-600 mt-3 md:mt-4'>Walker Insurance offers structured advice for Disability Insurance, Critical Illness Insurance, and Life Insurance. Everything is delivered through a secure digital process tailored for professionals, families, and business owners.</h6>
                 </AnimatedContent>
                 <AnimatedContent
                   distance={150}
@@ -160,9 +160,7 @@ const About = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-eye-icon lucide-eye"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" /><circle cx="12" cy="12" r="3" /></svg>
                   </div>
                   <h5 className='font-semibold text-white text-2xl lg:text-2xl'>Clarity</h5>
-                  <p className='text-white mt-2'>Every recommendation is structured to reflect your goals, lifestyle, and long-term priorities. We
-                    focus on protecting what matters most and aligning coverage with your broader financial and
-                    estate plans.</p>
+                  <p className='text-white mt-2'>We design insurance strategies that reflect your personal and financial priorities.</p>
                 </div>
               </AnimatedContent>
             </div>
@@ -183,9 +181,7 @@ const About = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-eye-icon lucide-eye"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" /><circle cx="12" cy="12" r="3" /></svg>
                   </div>
                   <h5 className='font-semibold text-white text-2xl lg:text-2xl'>Integrity</h5>
-                  <p className='text-white mt-2'>We provide independent advice that serves your interests. Backed by professional designations
-                    and years of experience, our guidance is transparent, thoughtful, and rooted in doing what is
-                    right.</p>
+                  <p className='text-white mt-2'>Our advice is independent and backed by professional designations and experience.</p>
                 </div>
               </AnimatedContent>
             </div>
@@ -206,22 +202,21 @@ const About = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-user-icon lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
                   </div>
                   <h5 className='font-semibold text-white text-2xl lg:text-2xl'>Simplicity</h5>
-                  <p className='text-white mt-2'>Our digital process removes unnecessary complexity. From secure intake forms to virtual
-                    consultations, we make insurance planning accessible, clear, and easy to navigate.</p>
+                  <p className='text-white mt-2'>We make the process easy to navigate using secure technology and virtual meetings.</p>
                 </div>
               </AnimatedContent>
             </div>
           </div>
         </div>
       </section>
-      <section className='bg-[#f5f9ff] pt-12 pb-8 lg:py-16 px-4 md:px-8 lg:px-16'>
+      {/* <section className='bg-[#f5f9ff] pt-12 pb-8 lg:py-16 px-4 md:px-8 lg:px-16'>
         <div className='lg:container mx-auto'>
           <h4 className='text-center text-[var(--primary__color)] font-semibold text-2xl md:text-3xl lg:text-4xl'>What Our Clients Say</h4>
           <div className='w-full mt-2 md:mt-5'>
             <TestimonialCarousel testimonials={testimonials} />
           </div>
         </div>
-      </section>
+      </section> */}
       <section className='bg-white py-12 lg:py-16 px-4 md:px-8 lg:px-16'>
         <div className='lg:container mx-auto'>
           <div className='grid grid-cols-12 md:gap-x-8 gap-y-6'>
@@ -238,34 +233,32 @@ const About = () => {
               >
                 <div>
                   <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold text-[var(--primary__color)]'>Meet Michael Walker</h1>
-                  <h6 className='text-base text-gray-600 mt-3 md:mt-4'>Michael Walker is a licensed Canadian insurance advisor with over twelve years of experience. His practice is dedicated to helping professionals, families, and business owners protect income, plan for health events, and build long-term financial security through carefully structured insurance solutions.</h6>
-                  <h6 className='text-base text-gray-600 mt-2 md:mt-3'>He holds a Bachelor of Commerce degree along with the following professional designations:</h6>
+                  <h6 className='text-base text-gray-600 mt-3 md:mt-4'>Michael Walker is a licensed Canadian insurance advisor with more than twelve years of experience. He helps clients protect income, plan for health events, and build long term financial security.</h6>
+                  <h6 className='text-base text-gray-600 mt-2 md:mt-3'>He holds a Bachelor of Commerce degree and the following designations:</h6>
                   <ul className='mt-4 flex flex-col gap-y-3'>
-                    <li>
-                      <p className='text-base text-gray-600 flex items-start gap-x-2'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00cfff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 mt-1 lucide lucide-award-icon lucide-award"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" /><circle cx="12" cy="8" r="6" /></svg>
-                        Chartered Life Underwriter (CLU) — Specializing in advanced life insurance planning,
-                        estate strategies, and business continuity
+                    <li className='flex items-start gap-x-2 text-gray-600'>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 mt-1 lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg>
+                      <p className='text-lg font-semibold text-gray-600'>
+                        Chartered Life Underwriter (CLU)<br></br>
+                        <span className='font-normal text-gray-600 text-base leading-tight'>Focused on life insurance planning, business continuity, and estate strategies.</span>
                       </p>
                     </li>
-                    <li>
-                      <p className='text-base text-gray-600 flex items-start gap-x-2'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00cfff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 mt-1 lucide lucide-briefcase-icon lucide-briefcase"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" /><rect width="20" height="14" x="2" y="6" rx="2" /></svg>
-                        Trust and Estate Practitioner (TEP) — Recognized globally for expertise in succession
-                        planning and intergenerational wealth transfer
+                    <li className='flex items-start gap-x-2 text-gray-600'>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 mt-1 lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg>
+                      <p className='text-lg font-semibold text-gray-600'>
+                        Trust and Estate Practitioner (TEP)<br></br>
+                        <span className='font-normal text-gray-600 text-base leading-tight'>Recognized internationally for expertise in succession planning and intergenerational wealth transfer.</span>
                       </p>
                     </li>
-                    <li>
-                      <p className='text-base text-gray-600 flex items-start gap-x-2'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00cfff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 mt-1 lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /><circle cx="12" cy="10" r="3" /></svg>
-                        Certified Health Insurance Specialist (CHS) — Focused on Disability Insurance,
-                        Critical Illness Insurance, and related living benefits
+                    <li className='flex items-start gap-x-2 text-gray-600'>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 mt-1 lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg>
+                      <p className='text-lg font-semibold text-gray-600'>
+                        Certified Health Insurance Specialist (CHS)<br></br>
+                        <span className='font-normal text-gray-600 text-base leading-tight'>Specializing in Disability Insurance, Critical Illness Insurance, and related living benefits.</span>
                       </p>
                     </li>
                   </ul>
-                  <h6 className='text-base text-gray-600 mt-3 md:mt-4'>Michael brings a disciplined, planning-based approach to every client relationship. When appropriate, he collaborates with accountants, lawyers, and financial professionals to ensure each insurance strategy aligns with the client's broader financial and estate objectives.</h6>
-                  <h6 className='text-base text-gray-600 mt-3 md:mt-4'>Outside of his professional work, Michael has a personal interest in real estate, values time with
-                    his family, and enjoys seeing more of the world whenever the schedule cooperates.</h6>
+                  <h6 className='text-base text-gray-600 mt-3 md:mt-4'>Outside of work, Michael enjoys real estate as a personal interest, values time with his family, and makes space for travel when possible.</h6>
                 </div>
               </AnimatedContent>
             </div>
