@@ -92,7 +92,7 @@ const About = () => {
                 scale={1.1}
                 threshold={0.2}
               >
-                <img draggable="false" className='w-full h-auto aspect-[16/12] object-cover object-center rounded-2xl shadow-lg' src="./images/about-banner.webp" alt="" />
+                <img draggable="false" className='w-full h-auto aspect-[16/12] object-cover object-center rounded-2xl shadow-lg' src="./images/about-banner-2.webp" alt="Specialized Insurance Advice with a Planning Focus" />
               </AnimatedContent>
             </div>
           </div>

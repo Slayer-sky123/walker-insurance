@@ -72,36 +72,44 @@ const Lead = () => {
                                 <form className="space-y-5">
                                     {/* Full Name */}
                                     <div>
-                                        <label className="block font-medium mb-1">
+                                        <label htmlFor="fullName" className="block font-medium mb-1">
                                             Full Name <span className="text-red-500">*</span>
                                         </label>
                                         <input
+                                            id="fullName"
+                                            name="fullName"
                                             type="text"
                                             placeholder="John Doe"
                                             className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--primary__color)]"
+                                            autoComplete="name"
                                             required
                                         />
                                     </div>
 
                                     {/* Email */}
                                     <div>
-                                        <label className="block font-medium mb-1">
+                                        <label htmlFor="email" className="block font-medium mb-1">
                                             Email <span className="text-red-500">*</span>
                                         </label>
                                         <input
+                                            id="email"
+                                            name="email"
                                             type="email"
                                             placeholder="john.doe@example.com"
                                             className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--primary__color)]"
+                                            autoComplete="email"
                                             required
                                         />
                                     </div>
 
                                     {/* Province */}
                                     <div>
-                                        <label className="block font-medium mb-1">
+                                        <label htmlFor="province" className="block font-medium mb-1">
                                             Province <span className="text-red-500">*</span>
                                         </label>
                                         <select
+                                            id="province"
+                                            name="province"
                                             className="w-full border border-gray-300 rounded px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-[var(--primary__color)]"
                                             required
                                         >
@@ -113,43 +121,34 @@ const Lead = () => {
                                         </select>
                                     </div>
 
-                                    {/* Occupation / Business Name */}
+                                    {/* Preferred Contact Method */}
                                     <div>
-                                        <label className="block font-medium mb-1">Occupation or Business Name</label>
+                                        <label htmlFor="contactMethod" className="block font-medium mb-1">
+                                            Preferred Contact Method
+                                        </label>
                                         <input
+                                            id="contactMethod"
+                                            name="contactMethod"
                                             type="text"
-                                            placeholder="Web Developer / ABC Company"
+                                            placeholder="Phone Number / Email"
                                             className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--primary__color)]"
+                                            required
                                         />
                                     </div>
 
-                                    {/* Insurance Type */}
+                                    {/* Phone Number */}
                                     <div>
-                                        <label className="block font-medium mb-2">
-                                            Type(s) of insurance you're interested in <span className="text-red-500">*</span>
+                                        <label htmlFor="phone" className="block font-medium mb-1">
+                                            Phone Number
                                         </label>
-                                        <div className="space-y-2">
-                                            <label className="flex items-center space-x-2">
-                                                <input type="checkbox" className="accent-blue-600" />
-                                                <span>Disability</span>
-                                            </label>
-                                            <label className="flex items-center space-x-2">
-                                                <input type="checkbox" className="accent-blue-600" />
-                                                <span>Critical Illness</span>
-                                            </label>
-                                            <label className="flex items-center space-x-2">
-                                                <input type="checkbox" className="accent-blue-600" />
-                                                <span>Life Insurance</span>
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    {/* Optional Message */}
-                                    <div>
-                                        <label className="block font-medium mb-1">Tell us what’s on your mind (optional)</label>
-                                        <textarea
-                                            placeholder="Any specific questions or concerns we can help with?"
-                                            className="w-full border border-gray-300 rounded px-3 py-2 h-20 resize-none focus:outline-none focus:ring-2 focus:ring-[var(--primary__color)]"
+                                        <input
+                                            id="phone"
+                                            name="phone"
+                                            type="number"
+                                            min='0'
+                                            placeholder="Phone Number"
+                                            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--primary__color)]"
+                                            autoComplete="tel"
                                         />
                                     </div>
 
