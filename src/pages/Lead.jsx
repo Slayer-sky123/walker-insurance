@@ -124,7 +124,7 @@ const Lead = () => {
                                     {/* Preferred Contact Method */}
                                     <div>
                                         <label htmlFor="contactMethod" className="block font-medium mb-1">
-                                            Preferred Contact Method
+                                            Preferred Contact Method <span className="text-red-500">*</span>
                                         </label>
                                         <input
                                             id="contactMethod"
@@ -144,9 +144,10 @@ const Lead = () => {
                                         <input
                                             id="phone"
                                             name="phone"
-                                            type="number"
-                                            min='0'
-                                            placeholder="Phone Number"
+                                            type="tel"
+                                            pattern="[0-9]{10,15}"
+                                            inputMode="numeric"
+                                            placeholder="+1 123 456 7890"
                                             className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--primary__color)]"
                                             autoComplete="tel"
                                         />

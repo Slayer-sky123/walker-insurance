@@ -49,7 +49,7 @@ const About = () => {
                   scale={1.1}
                   threshold={0.2}
                 >
-                  <h1 className='text-3xl md:text-4xl lg:text-6xl font-bold text-[var(--primary__color)]'>Specialized Insurance Advice with a Planning Focus</h1>
+                  <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold text-[var(--primary__color)]'>Specialized Insurance Advice with a Planning Focus</h1>
                 </AnimatedContent>
                 <AnimatedContent
                   distance={150}
